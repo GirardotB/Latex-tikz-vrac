@@ -4,7 +4,7 @@
 
 ## Chaîne trophique
 
-![tex/chaine_trophique.tex](figures/chaine_trophique.pdf)
+![tex/chaine_trophique.tex](https://github.com/GirardotB/tikz-vrac-/tree/master/figures/chaine_trophique.pdf)
 
 
 
