@@ -6,7 +6,9 @@
 
 ![](figures/chaine_trophique-1.png)
 
+## Vector and matrix
 
+![](figures/vector_and_matrix-1.png)
 
 
 
