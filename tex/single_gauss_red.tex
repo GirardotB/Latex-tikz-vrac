@@ -1,0 +1,39 @@
+\documentclass[border=5pt]{standalone}
+\usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween}
+\pgfplotsset{
+    /pgf/declare function={
+        % normal distribution where \mean = mean and \stddev = sd}
+    gauss(\mean,\stddev) = 1/sqrt(2*pi*\stddev^2) * exp(-((\x-\mean)^2)/(2*\stddev^2));
+},
+    }
+\begin{document}
+\begin{tikzpicture}
+
+
+	\begin{axis}[
+		axis lines=left,
+    	domain=0:5,
+    	samples=201,
+    	ymin=0,
+    	xtick=\empty,
+    	ytick=\empty,
+    	enlargelimits=false,
+    	clip=false,
+		axis y line=none, % enlever y axis  	
+		axis x line=none 
+		]
+		\addplot [
+    		thick,
+    		red,
+    		name path=cat,
+    		%fill=orange!50,
+		] {gauss(2.5, 0.75)};
+
+
+
+	\end{axis}
+
+\end{tikzpicture}
+\end{document}
+

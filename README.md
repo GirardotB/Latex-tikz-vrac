@@ -10,5 +10,7 @@
 
 ![](figures/vector_and_matrix-1.png)
 
+## Gaussienne 
 
+![](figures/gaussienne-1.png)
 
