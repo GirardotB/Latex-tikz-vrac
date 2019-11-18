@@ -18,3 +18,7 @@
 
 ![](figures/arrows-1.png)
 
+## Degrade box's
+
+![](figures/degrade_box-1.png)
+
